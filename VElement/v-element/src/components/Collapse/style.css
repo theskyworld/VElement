@@ -18,8 +18,12 @@
   justify-content: space-between;
   height: var(--v-collapse-header-height);
   line-height: var(--v-collapse-header-height);
+
   background-color: var(--v-collapse-header-bg-color);
+
   color: var(--v-collapse-header-text-color);
+
+  
   cursor: pointer;
   font-size: var(--v-collapse-header-font-size);
   font-weight: 500;
@@ -43,12 +47,17 @@
 }
 .v-collapse-item__content {
   will-change: height;
+
   background-color: var(--v-collapse-content-bg-color);
+
   overflow: hidden;
   box-sizing: border-box;
   font-size: var(--v-collapse-content-font-size);
+
   color: var(--v-collapse-content-text-color);
+
   border-bottom: 1px solid var(--v-collapse-border-color);
+
   padding-bottom: 25px;
 }
 .slide-enter-active,
