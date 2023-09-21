@@ -19,7 +19,7 @@ defineOptions({
 
 const props = withDefaults(defineProps<TooltipProps>(), {
     placement: 'bottom',
-    trigger: "click",
+    trigger: "hover",
     transition: "fade",
     // 展示和隐藏延迟默认值0
     openDelay: 0,

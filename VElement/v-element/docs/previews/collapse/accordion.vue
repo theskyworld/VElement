@@ -1,6 +1,6 @@
-<!-- 基础折叠面板 -->
+<!-- 手风琴模式折叠面板 -->
 <template>
-    <v-collapse v-model="activeItemsNames">
+    <v-collapse v-model="activeItemsNames" accordion>
         <v-collapse-item name="item21" title="这是第一个面板的标题">
             在这里放第一个面板的内容
         </v-collapse-item>

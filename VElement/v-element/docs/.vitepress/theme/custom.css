@@ -25,19 +25,25 @@ p {
 }
 
 .v-collapse {
-  border-top : solid 1px var(--vk-color-primary-dark-2);
-  border-bottom : solid 1px var(--vk-color-primary-dark-2);
+  border-top : solid 1px var(--vp-c-divider);
+  border-bottom : solid 1px var(--vp-c-divider);
+  margin-left: 10px;
 }
 
 
 .v-collapse-item__header {
   background-color: var(--vk-color-primary-dark-2);
   color : var(--vp-c-text-1);
-  border-color : var(--vk-color-primary-dark-2);
+  border-color : var(--vp-c-divider);
 }
 
 .v-collapse-item__content {
   background-color: var(--vk-color-primary-dark-2);
   color : var(--vp-c-text-1);
-  border-color : var(--vk-color-primary-dark-2);
+  border-color : var(--vp-c-divider);
+}
+
+
+.v-tooltip {
+  margin-right: 20px;
 }

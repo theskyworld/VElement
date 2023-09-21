@@ -44,12 +44,16 @@ export default defineConfig({
         text: "通用组件",
         items: [
           {
-            text: "按钮",
+            text: "按钮&nbsp;Button",
             link: "../components/button.md",
           },
           {
-            text: "手风琴",
+            text: "折叠面板&nbsp;Collapse",
             link: "../components/collapse.md",
+          },
+          {
+            text: "弹出提示&nbsp;tooltip",
+            link: "../components/tooltip.md",
           },
         ],
       },
