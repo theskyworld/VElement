@@ -1,6 +1,14 @@
 ---
 title: 折叠面板Collapse
 description: Collapse组件
+
+prev:
+  text: '按钮'
+  link: './button.md'
+
+next:
+  text: '弹出提示'
+  link: './tooltip.md'
 ---
 
 # 折叠面板

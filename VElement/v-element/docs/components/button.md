@@ -1,6 +1,13 @@
 ---
 title: 按钮Button
 description: Button组件
+prev:
+  text: '首页'
+  link: '../index.md'
+
+next:
+  text: '折叠面板'
+  link: './collapse.md'
 ---
 
 # 按钮

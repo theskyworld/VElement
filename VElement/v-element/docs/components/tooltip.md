@@ -1,6 +1,12 @@
 ---
 title: 弹出提示Tooltip
 description: Tooltip组件
+
+prev:
+  text: '折叠面板'
+  link: './collapse.md'
+
+next: false
 ---
 
 # Tooltip

@@ -59,9 +59,20 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2023-present tsw",
+    },
+    search: {
+      provider: "local",
+    },
+    lastUpdated: {
+      text: "Updated at",
+      formatOptions: {
+        dateStyle: "full",
+        timeStyle: "medium",
+      },
+    },
   },
 
   markdown: {
