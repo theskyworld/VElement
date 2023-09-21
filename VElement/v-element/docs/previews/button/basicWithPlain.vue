@@ -1,3 +1,4 @@
+<!-- 基础按钮 -->
 <template>
     <v-button type="primary" plain>Primary</v-button>
     <v-button type="success" plain>Success</v-button>

@@ -1,3 +1,4 @@
+<!-- 基础按钮 -->
 <template>
     <v-button>default</v-button>
     <v-button type="primary">Primary</v-button>

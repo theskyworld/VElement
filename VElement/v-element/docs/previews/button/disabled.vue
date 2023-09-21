@@ -1,3 +1,4 @@
+<!-- 禁用的按钮 -->
 <template>
     <v-button disabled>disabled button</v-button>
 </template>
