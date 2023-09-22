@@ -52,8 +52,12 @@ export default defineConfig({
             link: "../components/collapse.md",
           },
           {
-            text: "弹出提示&nbsp;tooltip",
+            text: "弹出提示&nbsp;Tooltip",
             link: "../components/tooltip.md",
+          },
+          {
+            text: "下拉菜单&nbsp;Dropdown",
+            link: "../components/dropdown.md",
           },
         ],
       },
